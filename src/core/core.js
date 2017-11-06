@@ -54,8 +54,8 @@ export default {
     alert: function (msg, title) {
         const $alert = this.modal({
             footer: '<button class="button alert-btn">确定</button>',
-            msg,
-            title,
+            msg: msg || '',
+            title: title,
             maskClose: false,
             style: {
                 width: '480px',

@@ -1,17 +1,5 @@
-import layer from './core/core'
+import b5layer from './core/core'
 import './index.less'
 
-// layer.modal({
-// 	title: '嘿嘿嘿',
-// 	msg: '老帅'
-// })
-
-
-// layer.alert('嘿嘿嘿')
-
-// layer.confirm({
-// 	title: '嘿嘿嘿',
-// 	msg: '。。。。'
-// })
-
-layer.loading(4)
+module.exports = b5layer
+window.b5layer = b5layer
