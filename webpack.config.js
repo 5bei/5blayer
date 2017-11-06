@@ -15,7 +15,7 @@ module.exports = {
   devtool: 'source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'h5 webpack优化版',
+      title: 'heiheihei',
       template: './index.html',
       inject: 'body',
     }),

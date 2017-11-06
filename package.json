@@ -2,7 +2,7 @@
   "name": "5blayer",
   "version": "1.0.0",
   "description": "",
-  "main": "index",
+  "main": "dist/index.min.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --progress --color --hot",
     "build": "rimraf dist && webpack --config webpack.prod.js --progress --color",
