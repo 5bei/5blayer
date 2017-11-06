@@ -1,5 +1,5 @@
-import b5layer from './core/core'
+import bayer from './core/core'
 import './index.less'
 
-module.exports = b5layer
-window.b5layer = b5layer
+export default bayer
+window.bayer = bayer
